@@ -1,4 +1,3 @@
-// written by Mahzabin Hasnath
 const width = 525;
 const height = 525;
 const length = 4;
@@ -144,6 +143,7 @@ function findIndex(value) {
   return [row, column];
 }
 
+// move adjacent tile
 function moveTile(tile, row, column) {
   let dx = 0;
   let dy = 0;
